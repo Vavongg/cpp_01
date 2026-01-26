@@ -6,15 +6,15 @@
 /*   By: ainthana <ainthana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/26 12:15:10 by ainthana          #+#    #+#             */
-/*   Updated: 2026/01/26 18:12:39 by ainthana         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:32:29 by ainthana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/HumanB.hpp"
 
-HumanB::HumanB(std::string str)
+HumanB::HumanB(std::string name)
 {
-    this->name = str;
+    this->name = name;
     this->weapon = NULL;
 }
 
