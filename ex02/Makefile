@@ -1,11 +1,11 @@
 # ================== VARIABLES ================== #
 
-NAME        = 
+NAME        = zombie02
 CC          = c++
 CFLAGS      = -Wall -Wextra -Werror -std=c++98
 RM          = rm -rf
 
-SRC         = 
+SRC         = main.cpp
 DIR_OBJS    = objs
 
 OBJ = $(SRC:src/%.cpp=$(DIR_OBJS)/%.o)
