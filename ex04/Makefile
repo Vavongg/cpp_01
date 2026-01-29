@@ -1,11 +1,11 @@
 # ================== VARIABLES ================== #
 
-NAME        = 
+NAME        = sed_is_for_losers
 CC          = c++
 CFLAGS      = -Wall -Wextra -Werror -std=c++98
 RM          = rm -rf
 
-SRC         = 
+SRC         = src/main.cpp
 DIR_OBJS    = objs
 
 OBJ = $(SRC:src/%.cpp=$(DIR_OBJS)/%.o)
